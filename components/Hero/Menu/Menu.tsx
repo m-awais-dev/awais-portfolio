@@ -226,7 +226,7 @@ export default function Menu() {
                   </div>
                   <div className="align-center flex justify-center gap-10">
                     <a
-                      href="https://www.instagram.com/_0xAquaWolf"
+                      href="https://www.instagram.com/virus228.b/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="grid items-center"
