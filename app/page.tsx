@@ -21,16 +21,13 @@ export default function Home() {
   return (
     <main className="bg-transparent">
       <Hero />
-
-      <TimelineComponent />
-      <CallToAction />
+      {/* <TimelineComponent /> */}
       <SecondQuote />
       <AboutMe />
       <CallToAction />
       <Projects />
-
       <ContactForm />
-      <CallToAction />
+      
       <Footer />
     </main>
   );

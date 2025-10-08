@@ -63,23 +63,13 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/#about">About Me</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Videos">
-          <div className="flex flex-col space-y-3 text-sm min-w-[140px]">
-            <HoveredLink href="/#videos">YouTube Videos</HoveredLink>
-            <HoveredLink href="https://www.youtube.com/@0xAquaWolf">YouTube Channel</HoveredLink>
-          </div>
-        </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="flex flex-col space-y-3 text-sm min-w-[120px]">
             <HoveredLink href="/#projects">View Projects</HoveredLink>
-            <HoveredLink href="https://github.com/0xAquaWolf">GitHub</HoveredLink>
+            <HoveredLink href="https://github.com/m-awais-dev">GitHub</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Blog">
-          <div className="flex flex-col space-y-3 text-sm min-w-[100px]">
-            <HoveredLink href="/posts">All Posts</HoveredLink>
-          </div>
-        </MenuItem>
+    
       </Menu>
     </div>
   );

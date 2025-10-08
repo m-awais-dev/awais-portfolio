@@ -9,10 +9,10 @@ export default function SecondQuote() {
       <div className="flex flex-col items-center justify-center">
         <div className="absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2 text-center text-white">
           <div className="bg-gradient-to-b from-white to-[#CC53C7] bg-clip-text text-2xl font-medium text-transparent lg:text-6xl">
-            Simplicity is the ultimate sophistication.
+            Coding is not about typing fast, it’s about thinking deep.
           </div>
           <div className="mt-2 text-lg font-extralight text-white/50 lg:text-2xl">
-            - Leonardo Da Vinci
+            - Muhammad Awais
           </div>
         </div>
         <div className="z-5 relative">

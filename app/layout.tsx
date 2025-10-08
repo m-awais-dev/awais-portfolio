@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000',
   ),
-  title: '0xAquaWolf Portfolio & Blog',
+  title: 'M Awais Portfolio',
 
   description:
     'AquaWolf is a Senior Full-Stack Software Engineer and indie hacker specializing in PHP, WordPress, and Laravel development. With a proven track record in building impactful, consumer-facing web applications and e-commerce solutions, AquaWolf focuses on modern PHP development practices, custom WordPress solutions, and scalable Laravel applications while delivering quality software and maintaining best development practices.',

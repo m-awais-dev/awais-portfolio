@@ -8,8 +8,8 @@ import SVGGradientBg from '../SVGGradientBg';
 import GithubLogo from '../../../public/images/svg/Github-Logo.svg';
 import InstagramLogo from '../../../public/images/svg/Instagram-Logo.svg';
 import LinkedinLogo from '../../../public/images/svg/LinkedIn-Logo.svg';
-import TiktokLogo from '../../../public/images/svg/Tiktok-Logo.svg';
-import TwitterLogo from '../../../public/images/svg/X-Twitter-Logo.svg';
+
+
 import YouTubeLogo from '../../../public/images/svg/Youtube-Logo.svg';
 import clsx from 'clsx';
 import Link from 'next/link';
@@ -27,7 +27,6 @@ export default function Menu() {
   const [navMenu, setNavMenu] = useState<NavItem[]>([
     { name: 'Home', href: '/', isActive: true },
     { name: 'About', href: '/#about', isActive: false },
-    { name: 'Videos', href: '/#videos', isActive: false },
     { name: 'Projects', href: '/#projects', isActive: false },
     { name: 'Contact', href: '/#contact-me', isActive: false },
     // { name: 'Blog', href: '/posts', isActive: false },
@@ -153,7 +152,7 @@ export default function Menu() {
           <div className="relative z-50">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">0xAquaWolf</span>
+                <span className="sr-only">Muhammad Awais</span>
                 <div className="flex items-center gap-2">
                   <Image
                     src="/images/png/aquawolf-logo.png"
@@ -162,7 +161,7 @@ export default function Menu() {
                     height={25}
                   />
                   <div className="text-lg font-semibold text-white">
-                    0xAquaWolf
+                    Muhammad Awais
                   </div>
                 </div>
               </a>
@@ -199,18 +198,6 @@ export default function Menu() {
                 {/* Social Links */}
                 <div className="mt-10 grid gap-10">
                   <div className="align-center flex flex-1 justify-center gap-10">
-                    <a
-                      href="https://twitter.com/0xAquaWolf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src={TwitterLogo}
-                        alt="X/Twitter Logo"
-                        width={50}
-                        height={50}
-                      />
-                    </a>
                     <a
                       className="grid items-center"
                       href="https://www.youtube.com/@0xAquaWolf"
@@ -251,20 +238,9 @@ export default function Menu() {
                         height={50}
                       />
                     </a>
+                    
                     <a
-                      href="https://www.tiktok.com/@0xAquaWolf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src={TiktokLogo}
-                        alt="TikTok Logo"
-                        width={50}
-                        height={50}
-                      />
-                    </a>
-                    <a
-                      href="https://www.linkedin.com/in/0xAquaWolf"
+                      href="https://www.linkedin.com/in/m-awais-dev/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="grid items-center"
